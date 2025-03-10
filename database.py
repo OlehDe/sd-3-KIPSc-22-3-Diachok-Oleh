@@ -66,26 +66,26 @@ cursor.executemany('''
     ("IC789", 5, "Петро Бондар", 14, 700.00)
 ])
 
-print("-" * 56)
+print("-" * 55)
 cursor.execute("SELECT * FROM train_routes")
 result = cursor.fetchall()
 
 for res in result:
     print(res)
-print("-" * 56)
+print("-" * 55)
 
 cursor.execute("SELECT * FROM train_cars")
 result = cursor.fetchall()
 
 for res in result:
     print(res)
-print("-" * 56)
+print("-" * 55)
 
 cursor.execute("SELECT * FROM train_tickets")
 result = cursor.fetchall()
 
 for res in result:
     print(res)
-print("-" * 56)
+print("-" * 55)
 
 connect_a.close()
