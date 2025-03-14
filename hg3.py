@@ -46,5 +46,5 @@ class Rectangle(Shape):
 circle = Circle(50)
 rectangle = Rectangle(30, 70)
 
-print(f"Площа кола з радіусом {circle.radius}: {circle.area()}")
-print(f"Площа прямокутника {rectangle.width}x{rectangle.height}: {rectangle.area()}")
+print(f"Площа кола з радіусом: {circle.radius}: {circle.area()}")
+print(f"Площа прямокутника: {rectangle.width}x{rectangle.height}: {rectangle.area()}")
